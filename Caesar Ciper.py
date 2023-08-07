@@ -30,7 +30,6 @@ encryption = {
 
 
 normal_sentence = input("Please enter a sentence: ").lower()
-print(normal_sentence)
 
 encrypted_sentence = ''
 
@@ -40,6 +39,6 @@ for letter in normal_sentence:
     else:
         encrypted_sentence += letter
 
-print(encrypted_sentence)
+print("Encrypted sentence is:", encrypted_sentence)
         
         
