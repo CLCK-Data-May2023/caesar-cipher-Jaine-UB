@@ -39,6 +39,6 @@ for letter in normal_sentence:
     else:
         encrypted_sentence += letter
 
-print("Encrypted sentence is:", encrypted_sentence)
+print("The encrypted sentence is:", encrypted_sentence)
         
         # add your code here
